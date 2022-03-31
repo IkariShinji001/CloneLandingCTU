@@ -73,6 +73,7 @@
 .container-slide{
     background-color: #f8f8f8;
     border-top:1px solid #e2e1e1;
+    padding-bottom:30px ;
 }
 .slide .slogan h5{
     text-align: center;
@@ -90,9 +91,10 @@
 }
 .Speach .quotes i{
     color:#0289ea;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 .Speach .thutuong{
     text-align: center;
@@ -110,5 +112,64 @@
     border-radius: 100%;
     display: block;
     margin: 20px auto;
-    width: 150px;
+    width: 140px;
 }
+.container-news{
+    width: 100%;
+    background-color: #ffffec;
+    padding-top: 10px;
+    border-top: 1px solid #e2e1e1;
+}
+.news{
+    width: 1360px;
+    margin: 0 auto;
+}
+.main-news .container-news-infor{
+    display: flex;
+    
+}
+.container-title {
+    display: flex;
+    margin-top: 20px;
+}
+.container-title .gachdaudong{
+    width: 5px;
+    height: 28px;
+    background-color: yellow;
+    margin-right: 2px;
+}
+.container-title h3{
+    justify-content: flex-start;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 3px;
+}
+.main-news .main-news-infor{
+    width: 44%;
+    justify-content: space-around;
+    margin: 20px 40px;
+}
+#fix{
+    margin-right: 0;
+}
+.main-news .main-news-infor img{
+    width: 100%;
+}
+.main-news .main-news-infor h3,
+.main-news .main-news-infor a
+{
+    color: #0d47a1;
+    text-decoration: none;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-news .main-news-infor h4{
+    font-weight: 200;
+    color: #0289ea;
+    font-size: 15px;
+
+}
+
+.container-seperate
